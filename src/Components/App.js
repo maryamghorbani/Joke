@@ -1,7 +1,7 @@
 import React , { Component } from 'react';
 
 // import componentss
-import Header from './Header'
+import Header from './Content'
 
 
 class App extends Component {
