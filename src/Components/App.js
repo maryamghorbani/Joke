@@ -5,10 +5,8 @@ import { BrowserRouter as Router , Route } from 'react-router-dom';
 import './CSS/App.css'
 
 
-// import componentss
-import Content from './Content'
-
 //import Routes
+import Content from "../Routes/Content";
 import Route1 from "../Routes/Route1";
 import Route2 from "../Routes/Route2";
 import Route3 from "../Routes/Route3";
@@ -19,7 +17,7 @@ class App extends Component {
         return (
             <Router>
                 <div className="container">
-                    <Content />
+                    <Route path="/" exact component={Content} />
                     <Route path="/route1" component={Route1} />
                     <Route path="/route2" component={Route2} />
                     <Route path="/route3" component={Route3} />

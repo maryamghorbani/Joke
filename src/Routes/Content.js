@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 // import css file
-import './CSS/Content.css'
+import '../Components/CSS/Content.css'
 
 
 function Content() {
