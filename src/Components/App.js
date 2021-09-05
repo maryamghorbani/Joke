@@ -1,6 +1,7 @@
 import React , { Component } from 'react';
 import { BrowserRouter as Router , Route } from 'react-router-dom';
 
+
 // import css file
 import './CSS/App.css'
 
@@ -13,6 +14,16 @@ import Route3 from "../Routes/Route3";
 
 
 class App extends Component {
+
+
+    // componentDidMount() {
+    //     // GET request for remote image in node.js
+    //     axios.get('https://api.chucknorris.io/jokes/categories')
+    //         .then((response) => {
+    //             console.log(response)
+    //         })
+    // }
+
     render() {
         return (
             <Router>
