@@ -2,7 +2,7 @@ import React from 'react';
 
 function Route1(props) {
     return (
-        <h1>Hi!</h1>
+        <h1>Hi1!</h1>
     )
 }
 
