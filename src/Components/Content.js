@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 // import css file
 import './CSS/Content.css'
@@ -7,9 +8,9 @@ import './CSS/Content.css'
 function Content() {
     return (
         <div className="box-container">
-            <div className="box"><a className="link" href="#">1</a></div>
-            <div className="box"><a className="link" href="#">2</a></div>
-            <div className="box"><a className="link" href="#">3</a></div>
+            <div className="box"><Link className="link" to="/route1">Route1</Link></div>
+            <div className="box"><Link className="link" to="/route2">Route2</Link></div>
+            <div className="box"><Link className="link" to="/route3">Route3</Link></div>
         </div>
     )
 }
