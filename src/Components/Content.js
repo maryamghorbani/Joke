@@ -7,9 +7,9 @@ import './CSS/Content.css'
 function Content() {
     return (
         <div className="box-container">
-            <a className="link" href="#"><div className="box">1</div></a>
-            <a className="link" href="#"><div className="box">2</div></a>
-            <a className="link" href="#"><div className="box">3</div></a>
+            <div className="box"><a className="link" href="#">1</a></div>
+            <div className="box"><a className="link" href="#">2</a></div>
+            <div className="box"><a className="link" href="#">3</a></div>
         </div>
     )
 }

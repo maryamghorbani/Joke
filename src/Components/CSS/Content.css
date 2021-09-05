@@ -4,5 +4,8 @@
     justify-content: space-between;
 }
 .box {
-
+    padding: 10%;
+    background-color: #a2def1;
+    border: 2px solid #6675f6;
+    border-radius: 8px;
 }
