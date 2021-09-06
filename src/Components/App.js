@@ -29,10 +29,10 @@ class App extends Component {
             <Router>
                 <div className="container">
                     <Route path="/" exact component={Content} />
-                    <Route path="/route1" component={Route1} />
-                    <Route path="/route2" component={Route2} />
-                    <Route path="/route3" component={Route3} />
                 </div>
+                <Route path="/route1" component={Route1} />
+                <Route path="/route2" component={Route2} />
+                <Route path="/route3" component={Route3} />
             </Router>
         )
     }

@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4%;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    background-color: #a2def1;
+    border: 2px solid #6675f6;
+    border-radius: 8px;
+}
+.card-header {
+    background-color: #6675f6;
+    color: white;
+    text-align: center;
+    line-height: 3em;
+}
+.card-header li {
+    list-style: none;
+}
+.card-body {
+    padding: 10% 4%;
+    text-indent: 1em;
+}

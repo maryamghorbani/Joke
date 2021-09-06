@@ -1,8 +1,13 @@
 import React from 'react';
 
+
+// import css files
+import './CSS/Card.css'
+
+
 function CardHeader(props) {
     return (
-        <ul>
+        <ul className="card-header">
             <li>Joke number {props.cardnumber}</li>
         </ul>
     )

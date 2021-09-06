@@ -1,9 +1,13 @@
 import React from 'react';
 
 
+// import css files
+import './CSS/Card.css'
+
+
 function CardBody() {
     return (
-        <p>
+        <p className="card-body">
             HI ...
         </p>
     )
