@@ -1,8 +1,12 @@
 import React from 'react';
 
+
+// import components
+import Cards from "../Components/Cards";
+
 function Route2(props) {
     return (
-        <h1>Hi2!</h1>
+        <Cards />
     )
 }
 

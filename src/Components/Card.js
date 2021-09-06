@@ -1,9 +1,6 @@
 import React from 'react';
 
 
-// import css file
-import './CSS/Card.css'
-
 // import components
 import CardHeader from "./CardHeader";
 import CardBody from "./CardBody";

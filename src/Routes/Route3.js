@@ -1,8 +1,12 @@
 import React from 'react';
 
+
+// import components
+import Cards from "../Components/Cards";
+
 function Route3(props) {
     return (
-        <h1>Hi3!</h1>
+        <Cards />
     )
 }
 
