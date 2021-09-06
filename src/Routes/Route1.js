@@ -1,8 +1,15 @@
 import React from 'react';
 
+// import components
+import Card from "../Components/Card";
+
 function Route1(props) {
     return (
-        <h1>Hi1!</h1>
+        <div className="cards-container">
+            <Card number="1" />
+            <Card number="2" />
+            <Card number="3" />
+        </div>
     )
 }
 
