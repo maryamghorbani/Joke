@@ -1,7 +1,7 @@
 import React from 'react';
 
 // importe css files
-import '../Components/CSS/Card2.css'
+import '../Components/CSS/Card.css'
 
 // import components
 import Cards from "../Components/Cards";

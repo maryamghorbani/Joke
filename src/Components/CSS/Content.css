@@ -8,10 +8,13 @@
     width: 150px;
     height: 150px;
     background-color: #a2def1;
-    border: 2px solid #6675f6;
-    border-radius: 8px;
+    border-radius: 100%;
     justify-content: center;
     align-items: center;
+}
+.box:hover {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+    transform: scale(1.5);
 }
 .link {
     color: #6675f6;
