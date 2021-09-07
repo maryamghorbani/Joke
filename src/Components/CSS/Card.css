@@ -1,0 +1,49 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.card {
+  display: flex;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  background: rgb(0,159,255);
+  background: linear-gradient(121deg, rgba(255,255,255,0) 13%, rgba(0,159,255,1) 100%);
+  transition: all 500ms ease-in;
+  transition-delay: 1s;
+  margin: auto;
+  margin-bottom: 100px;
+}
+.card:hover {
+  width: 500px;
+  border-radius: 100px 10px 100px 100px;
+  transition: all 1s ease-out;
+}
+
+.ccard-body {
+  color: white;
+  flex-shrink: 1;
+}
+.card-body {
+    overflow: hidden;
+    text-overflow: hidden;
+    color: white;
+    padding: 0 1em;
+    line-height: 1.7em;
+    text-align: justify;
+    transition: all 450ms ease-in;
+    transition-delay: 1s;
+}
+.card-header {
+  margin: 0;
+  background-color: #e83cb440;
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  flex-shrink: 0;
+}
+.card-header li {
+    text-align: center;
+    line-height: 12em;
+    color: #656464;
+}
