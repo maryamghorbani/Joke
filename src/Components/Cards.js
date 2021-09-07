@@ -7,7 +7,7 @@ import Card from "../Components/Card";
 
 function Cards() {
     return (
-        <div className="cards-container">
+        <div className="cards">
             <Card number="1" />
             <Card number="2" />
             <Card number="3" />
