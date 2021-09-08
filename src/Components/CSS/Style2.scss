@@ -1,5 +1,4 @@
 :root {
-    --red: hsl(0, 78%, 62%);
     --cyan: hsl(180, 73%, 25%);
     --orange: hsl(34, 97%, 64%);
     --blue: hsl(212, 86%, 64%);
@@ -14,6 +13,9 @@
         grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
         gap: 2rem;
         margin: 0 5vw;
+        &:hover .card {
+            opacity:0.2;
+        }
     }
     .card {
         border-radius: 5px;
@@ -27,16 +29,13 @@
         transform-origin:center;
         transform:perspective(800px) rotateY(25deg);
         transition:0.5s;
+        &:hover {
+            transform:perspective(800px) rotateY(0deg);
+            opacity:1 !important;
+        }
     }
     .card-body {
         color: var(--grayishBlue);
-    }
-    .cards:hover .card {
-        opacity:0.2;
-    }
-    .card:hover {
-        transform:perspective(800px) rotateY(0deg);
-        opacity:1 !important;
     }
 
 }

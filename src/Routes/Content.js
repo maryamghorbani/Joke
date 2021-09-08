@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import axios from "axios";
 
 // import css file
-import '../Components/CSS/Content.css'
+import '../Components/CSS/Content.scss'
 
 
 function Content() {
