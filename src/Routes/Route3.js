@@ -1,12 +1,17 @@
 import React from 'react';
 
+// importe css files
+import '../Components/CSS/Style3.scss';
+
 
 // import components
 import Cards from "../Components/Cards";
 
 function Route3(props) {
     return (
-        <Cards />
+        <div className="thirdRoute">
+            <Cards />
+        </div>
     )
 }
 

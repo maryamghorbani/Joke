@@ -1,12 +1,17 @@
 import React from 'react';
 
+// importe css files
+import '../Components/CSS/Style2.scss';
+
 
 // import components
 import Cards from "../Components/Cards";
 
 function Route2(props) {
     return (
-        <Cards />
+        <div className="secondRoute">
+            <Cards />
+        </div>
     )
 }
 
