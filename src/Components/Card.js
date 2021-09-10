@@ -4,7 +4,8 @@ import loadable from '@loadable/component';
 
 // import components
 import CardHeader from "./CardHeader";
-import CardBody from "./CardBody";
+
+const CardBody = loadable(() => import('./CardBody'))
 
 
 function Card(props) {

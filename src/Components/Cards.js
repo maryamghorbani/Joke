@@ -6,6 +6,7 @@ import Card from "../Components/Card";
 
 
 function Cards() {
+
     return (
         <div className="cards">
             <Card number="1" />
